@@ -12,13 +12,18 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void souldReturnHelloWorld()
     {
         //assertTrue( true );
-        assertEquals("HelloWorld", App.helloWorld());
+        assertEquals("Hello World Test Passed","Hello World", App.helloWorld());
+    }
+    @Test
+    public void shouldReturnDataCreated()
+    {
+        assertEquals("Data Created Test Passed", "Data Created!", App.create());
     }
 
-
 }
+
 
 
